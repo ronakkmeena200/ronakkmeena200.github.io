@@ -1,0 +1,141 @@
+*{margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body{                                 /*Settting font and bacground for body*/
+	font-size: 2em;
+	background-color: #eeeeee;
+    font-family: 'Poiret One', cursive;
+    overflow: auto;
+}
+.main-bar nav ul {                    /*positioning the list in nav*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	height: 100%
+}
+.main-bar {                            /*positioning the list in nav*/
+	
+	background-color: #fff;
+	text-align: center;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	position: relative;	
+}
+body div.main-intro {
+margin :30px auto 0px;
+padding: 44px;
+text-align: center;
+background-color:  rgba(71, 109, 107,0.65) ;
+overflow: auto;
+font-family: 'Nunito Sans', sans-serif;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+background-image: url("aaron.jpg");
+color: white;
+position:relative;
+top:15vh;
+animation-name: example;
+animation-duration: 2s;
+transition: width ease 2s;
+width:97%;
+}
+.anim:hover{
+width:99%;
+}
+.anim{
+	transition: width ease 2s;
+width:97%;
+}
+.main li a {
+	color:grey;
+	text-decoration: none;
+	display: block;
+	padding:40px 30px;
+	margin:5px 25px;
+}
+.main-title {
+	margin: 10px 20px 10px 5px;
+	font-family: 'Sail', cursive;
+	font-size: 2.5em;	
+	color:#476d6b;
+	text-shadow: .5px .5px 3px black ;
+	transition: text-shadow ease 2s;
+	animation-name: examplew;
+    animation-duration: 2s;
+}
+.main-title:hover{
+	text-shadow: .5px .5px 3px red;
+}
+.main li a:hover:not(.active){
+	background-color: #aeb2b1;
+	color:white;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+ li a.active {
+	background-color: #476d6b;
+	color: white;
+	display: block;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pp{margin:100px auto;
+	border-radius: 50%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+display: block;}
+
+
+.contact-links:hover
+{
+width: 65px;
+
+}
+.main-intro ul.contact{
+	list-style-type: none;
+}
+@keyframes example{
+	0%{left:0 ;}
+	50%{left:3px;}
+	100%{left:0px;}
+}
+@keyframes examplew{
+	0%{top:0 ;}
+	50%{top:px;}
+	100%{top:0px;}
+}
+
+.contact-links{
+	transition: width ease 2s;
+
+}
