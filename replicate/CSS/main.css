@@ -8,11 +8,9 @@
 }
 
 /* For mobile phones: */
-[class*="col-"] {
-  width: 100%;
-}
 
-@media only screen and (min-width: 800px) {
+
+
   /* For desktop: */
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
@@ -26,7 +24,7 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-}
+
  .row::after {
   content: "";
   clear: both;
@@ -38,6 +36,7 @@ body{
 }
 header{
 	background-color: white;
+  overflow: hidden;
 }
 [class*="main-"]{
  width: 1000px; 
@@ -49,10 +48,11 @@ header{
 	margin: 0 auto;
   position: relative;
   top: 0;
+  overflow: hidden;
  
 }
 .bookmark{
-  float: left;
+  float: right;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -74,6 +74,7 @@ header{
   height:360px;
   font-size: 20px;
   border-bottom:20px solid #ad2826;
+  overflow: hidden;
 }
 .sign-in{
   background-color: #ad2826;
@@ -112,6 +113,7 @@ a{
   text-align: center;
   font-size: 40px;
   background-color: #3abaad;
+  overflow: hidden;
 }
 .cont-4-text{
   color: #d83230;
@@ -134,9 +136,14 @@ font-size: 25px;
 }
 .container-4{
   height:370px;
+  overflow: hidden;
 }
 .container-5{
   background-color: #f4f1ea;
+  overflow: hidden;
+}
+.container-6{
+  overflow: hidden;
 }
 .img-cont-5{
   margin: 10px auto;
@@ -158,6 +165,7 @@ font-size: 25px;
    background-color: #f4f1ea;
    height:220px;
    font-size: 30px;
+   overflow: hidden;
 }
 .cont-7-blue{
 text-align: center;
@@ -172,6 +180,7 @@ color: orange;
 .container-8{
    background-color: #f4f1ea;
    height:200px;
+   overflow: hidden;
 }
 .text-cont-8{
   color: black;
@@ -191,6 +200,7 @@ color: orange;
   color: black;
   font-size: 13px;
   height:100px;
+  overflow: hidden;
 }
 input[type="text"]{
   padding:10px;
