@@ -101,11 +101,18 @@ a{
 } 
   .orange{background-color: orange;
   text-align: center;
-  
+}
 
+.orange:hover{
+  background-color: #fd7424;
+  text-align: center;
 }
 .blue{
   background-color: #3fb0eb;
+}
+.blue:hover{
+  background-color: #3197db;
+  text-align: center;
 }
 .container-3{
   height:430px;
@@ -114,7 +121,9 @@ a{
   font-size: 40px;
   background-color: #3abaad;
   overflow: hidden;
+  
 }
+
 .cont-4-text{
   color: #d83230;
   text-align: center;
@@ -243,8 +252,70 @@ label{
   text-align: center;
   margin: 8px auto 20px;
 }
+.orange-7:hover{
+  background-color:#f5a54f;
+  text-align: center;
+  margin: 8px auto 20px;
+}
  .blue-7{
   background-color: #3fb0eb;
   text-align: center;
   margin: 8px auto 20px;
+}
+.blue-7:hover{
+  background-color: #81caf0;
+  text-align: center;
+  margin: 8px auto 20px;
+}
+.feedback{
+  position: fixed;
+  top:50%;
+  right:-45px;
+  background-color: black;
+  padding: 7px;
+  border-radius: 5px;
+  transform: rotatez(-90deg);
+  cursor: pointer;
+
+}
+a.a-head{
+  padding: 0;
+  margin: 0;
+  color: black;
+  text-align: left;
+font-size: 15px;
+}
+a.a-cont{
+  padding: 2px;
+  margin: 0;
+  color: black;
+  text-align: left;
+font-size: 13px;
+display: inline-block;
+}
+a.a-cont:hover{
+  padding: 2px;
+  margin: 0;
+  color: orange;
+  text-align: left;
+font-size: 13px;
+display: inline-block;
+}
+a.a-foot{
+  padding: 2px;
+  margin: 0;
+  color: black;
+  text-align: left;
+font-size: 10px;
+display: inline-block;
+
+}
+a.a-foot:hover{
+  padding: 2px;
+  margin: 0;
+  color: orange;
+  text-align: left;
+font-size: 10px;
+display: inline-block;
+
 }
